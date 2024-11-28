@@ -9,6 +9,7 @@
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/styles/style2.css">
+      <link rel="stylesheet" href="src/output.css" />
 
       <title>Login Form</title>
    </head>
