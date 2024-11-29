@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Makanan Khas Indonesia</title>
   <link rel="stylesheet" href="assets/styles/style.css" />
-  <link rel="stylesheet" href="src/output.css" />
+  @vite('resources/css/app.css')
 </head>
 <body>
   <header>

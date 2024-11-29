@@ -9,7 +9,7 @@
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/styles/style2.css">
-      <link rel="stylesheet" href="src/output.css" />
+      @vite('resources/css/app.css')
 
       <title>Login Form</title>
    </head>
