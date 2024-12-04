@@ -25,6 +25,7 @@
         <a href="#contact">Contact</a>
     </nav>
   </header>
+  
 
 <div class="container mx-auto py-8">
     <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
