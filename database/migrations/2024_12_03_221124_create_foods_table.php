@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ratings', function (Blueprint $table) {
-            $table->id();
-            $table->string('nilai');
-            $table->date('tanggal');
-            $table->string('reviewer');
-            $table->foreignId('makanan_id')->constrained('makanans')->cascadeOnDelete();
-            $table->text('komentar')->nullable();
+        Schema::create('foods', function (Blueprint $table) {
+            $table->id('id_makanan'); // Primary key menjadi 'id_makanan'
+            $table->string('name');
+            $table->string('image')->nullable();
+            $table->text('content');
             $table->timestamps();
         });
     }
@@ -27,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ratings');
+        Schema::dropIfExists('foods');
     }
 };
